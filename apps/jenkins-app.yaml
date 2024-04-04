@@ -17,7 +17,7 @@ spec:
       targetRevision: 12.4.0
       helm:
         valueFiles:
-          - /jenkins/values.yaml
+          - /values.yaml
       chart: jenkins
     - repoURL: 'https://github.com/mathwro/argocd-kata'
       targetRevision: main
